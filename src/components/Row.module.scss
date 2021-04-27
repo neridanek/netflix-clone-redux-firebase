@@ -1,0 +1,39 @@
+
+.row{
+    color:white;
+    margin-left: 20px;
+    
+    &Poster{
+        display:flex;
+        overflow-y:hidden;
+        overflow-x:scroll;
+        padding:20px;
+        -webkit-overflow-scrolling: touch;
+        &::-webkit-scrollbar{
+            display:none;
+        }
+    }
+
+ 
+   
+
+    &Img{
+        width: 100%;
+        max-height: 100px;
+        transition: transform 450ms;
+        margin-right: 10px;
+        
+        &:hover{
+            transform:scale(1.08);
+            
+        }
+        &Large{
+            max-height: 250px;
+            &:hover{
+                transform:scale(1.09);
+                
+            }
+        }
+        
+    }
+}
