@@ -10,13 +10,19 @@ const PopUp = ({name,description,image,handler,active}) => {
             backgroundSize:"cover",
             backgroundImage:`url("https://image.tmdb.org/t/p/original/${image}")`,
             backgroundPosition:"top center",
-            backgroundAttachment: "fixed",
-        }}>
-            <div className={styles.popUpInfo}>
-                <h1>{name}</h1>
-                <h2>{description}</h2>
-            </div>
-        </div>
+            backgroundPositionX:"right",
+            backgroundRepeat:"no-repeat",
+            backgroundAttachment:"fixed",
+            backgroundColor:"#111",
+            }}>
+
+                <div className={styles.popUpInfo}>
+                    <h1>{name}</h1>
+                    <h2>{description}</h2>
+                </div>
+                
+                    
+                </div>
     )
 }
 
