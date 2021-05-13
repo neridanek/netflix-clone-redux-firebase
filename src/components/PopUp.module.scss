@@ -1,0 +1,23 @@
+.popUp{
+    display:flex;
+    justify-content:space-between;
+    top:0px;
+    height:300px;
+    color:#dce1e5;
+    // @media only screen and (max-width: 400px){
+    //     background-size: cover;
+    //     background-image: url(https://image.tmdb.org/t/p/original//Wu8kh7oyvaIfkNyMJyJHCamh5L.jpg);
+    //     background-position: center top;
+        
+    // }
+    &Info{
+        h2{
+            font-size: 1.5rem;
+            width: 70rem;
+            @media only screen and (max-width: 400px){
+                width:15rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}

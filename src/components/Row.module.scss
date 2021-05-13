@@ -2,7 +2,7 @@
 .row{
     color:white;
     margin-left: 20px;
-    
+    background-color:#111;
     &Poster{
         display:flex;
         overflow-y:hidden;
@@ -11,6 +11,10 @@
         -webkit-overflow-scrolling: touch;
         &::-webkit-scrollbar{
             display:none;
+        }
+        @media only screen and (max-width: 400px){
+            margin-left: -12px;
+    
         }
     }
 

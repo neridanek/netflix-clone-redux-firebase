@@ -1,0 +1,27 @@
+.plansScreen{
+    display:flex;
+    flex-direction:column;
+    &Plan{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        padding:20px;
+        opacity:0.8;
+        button{
+            background-color:#e50914;
+            border:none;
+            cursor:pointer;
+            font-weight: 600;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color:#fff;
+            
+        }
+        &:hover{
+            opacity:1;
+        }
+    }
+    &Info{
+        
+    }
+}
